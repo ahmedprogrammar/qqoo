@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منيو الطعام</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>منيو الطعام</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#menu">المنيو</a></li>
+                <li><a href="#specials">العروض الخاصة</a></li>
+                <li><a href="#offers">العروض</a></li>
+                <li><a href="#contact">اتصل بنا</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="section">
+            <h2>مرحبا بكم في مطعمنا!</h2>
+            <p>استمتع بأشهى الأطباق والعروض الخاصة لدينا.</p>
+        </section>
+        <section id="menu" class="section">
+            <h2>المنيو</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="path/to/image1.jpg" alt="وجبة 1">
+                    <div class="item-details">
+                        <h3>وجبة 1</h3>
+                        <p>وصف الوجبة 1</p>
+                        <p>السعر: 100 ريال</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="path/to/image2.jpg" alt="وجبة 2">
+                    <div class="item-details">
+                        <h3>وجبة 2</h3>
+                        <p>وصف الوجبة 2</p>
+                        <p>السعر: 120 ريال</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="specials" class="section">
+            <h2>العروض الخاصة</h2>
+            <div class="specials-grid">
+                <div class="special-item">
+                    <img src="path/to/special1.jpg" alt="عرض خاص 1">
+                    <div class="item-details">
+                        <h3>عرض خاص 1</h3>
+                        <p>وصف العرض الخاص 1</p>
+                        <p>السعر: 150 ريال</p>
+                    </div>
+                </div>
+                <div class="special-item">
+                    <img src="path/to/special2.jpg" alt="عرض خاص 2">
+                    <div class="item-details">
+                        <h3>عرض خاص 2</h3>
+                        <p>وصف العرض الخاص 2</p>
+                        <p>السعر: 180 ريال</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="offers" class="section">
+            <h2>العروض</h2>
+            <div class="offers-grid">
+                <div class="offer-item">
+                    <img src="path/to/offer1.jpg" alt="عرض 1">
+                    <div class="item-details">
+                        <h3>عرض 1</h3>
+                        <p>وصف العرض 1</p>
+                        <p>السعر: 200 ريال</p>
+                    </div>
+                </div>
+                <div class="offer-item">
+                    <img src="path/to/offer2.jpg" alt="عرض 2">
+                    <div class="item-details">
+                        <h3>عرض 2</h3>
+                        <p>وصف العرض 2</p>
+                        <p>السعر: 250 ريال</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section contact">
+            <h2>اتصل بنا</h2>
+            <div class="contact-options">
+                <div class="contact-option">
+                    <h3>اتصال هاتفي</h3>
+                    <p>يمكنك الاتصال بنا مباشرة عبر الهاتف:</p>
+                    <p><strong>+123 456 789</strong></p>
+                    <a href="tel:+123456789" class="phone-link">اتصل الآن</a>
+                </div>
+                <div class="contact-option">
+                    <h3>بريد إلكتروني</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">الاسم:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">البريد الإلكتروني:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">الرسالة:</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit">إرسال</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 مطعمنا. جميع الحقوق محفوظة.</p>
+    </footer>
+    <button class="back-to-top" aria-label="العودة إلى الأعلى">&#8679;</button>
+    <script src="script.js"></script>
+</body>
+</html>
